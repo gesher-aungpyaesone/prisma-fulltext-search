@@ -1,0 +1,1 @@
+SELECT * FROM Article WHERE MATCH(title, description, body) AGAINST (? IN NATURAL LANGUAGE MODE)
